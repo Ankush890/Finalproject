@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Delivery Website</title>
+</head>
+<body>
+    <header>
+        <h1>Food Delivery</h1>
+        <!-- Add navigation and other header elements as needed -->
+    </header>
+
+    <section class="menu">
+        <!-- Display menu items dynamically from backend using Angular/React/Vue.js components -->
+    </section>
+
+    <section class="order-form">
+        <!-- Create a form for users to place orders -->
+    </section>
+
+    <footer>
+        <!-- Add footer information and links -->
+    </footer>
+
+    <script src="app.js"></script>
+    <!-- Include Angular/React/Vue.js scripts as needed -->
+</body>
+</html>
