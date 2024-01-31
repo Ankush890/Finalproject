@@ -1,0 +1,25 @@
+// Add dynamic functionality using Angular/React/Vue.js or vanilla JavaScript
+// Fetch menu items, handle order submission, etc.
+
+// Example vanilla JavaScript for fetching menu items
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('api/menu')
+        .then(response => response.json())
+        .then(data => displayMenu(data))
+        .catch(error => console.error('Error fetching menu:', error));
+
+    function displayMenu(menuItems) {
+        const menuSection = document.querySelector('.menu');
+
+        menuItems.forEach(item => {
+            const menuItem = document.createElement('div');
+            menuItem.classList.add('menu-item');
+            menuItem.textContent = item.name + ' - $' + item.price;
+            menuSection.appendChild(menuItem);
+        });
+    }
+
+    // Add additional JavaScript for order submission, etc.
+});
+
+// Include Angular/React/Vue.js components or frameworks as needed
